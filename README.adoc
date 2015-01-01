@@ -7,6 +7,9 @@ This repository is a http://middlemanapp.com[Middleman] project template with th
 * http://foundation.zurb.com[ZURB Foundation] for styling (loaded from the http://sass-lang.com[SCSS] version)
 * http://slim-lang.org[Slim] templates for page layouts
 
+WARNING: AsciiDoc content isn't correctly styled yet.
+Doing so depends on getting the Asciidoctor stylesheet factory https://github.com/asciidoctor/asciidoctor-stylesheet-factory/issues/19[updated to Foundation 5] and https://github.com/asciidoctor/asciidoctor-stylesheet-factory/issues/18[creating an embeddable stylesheet] for styling the content generated from AsciiDoc.
+
 NOTE: The ZURB Foundation assets are downloaded and managed using http://bower.io[Bower].
 
 == Installation
