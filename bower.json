@@ -1,0 +1,8 @@
+{
+  "name": "middleman-asciidoc-foundation-slim",
+  "version": "1.0.0",
+  "private": "true",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation#5.5.0"
+  }
+}

@@ -1,0 +1,10 @@
+// TIP see source/components/foundation/scss/foundation/_settings.scss for all available variables and default values
+@import "foundation/functions";
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-serif: 'Noto Serif', serif;
+$font-family-monospace: 'Droid Sans Mono', monospace;
+$body-font-family: $font-family-serif;
+$header-font-family: $font-family-sans-serif;
+$header-font-weight: 300;
+$keystroke-font: $font-family-monospace;
+$keystroke-font-size: 0.8em;

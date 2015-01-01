@@ -1,0 +1,51 @@
+= AsciiDoc is Writing Zen
+Doc Writer <doc.writer@example.org>
+// settings:
+:page-layout: content
+// URIs:
+:uri-asciidoc: http://asciidoctor.org/docs/what-is-asciidoc
+:uri-asciidoctor: http://asciidoctor.org
+:uri-asciidoctor-gem: https://rubygems.org/gems/asciidoctor
+:uri-asciidoctor-repo: https://github.com/asciidoctor/asciidoctor
+
+_Zen_ in the *art* of writing `plain text` with {uri-asciidoc}[AsciiDoc].
+
+== What is Asciidoc?
+
+AsciiDoc is two things:
+
+. A mature, plain-text writing format
+. A text processor and toolchain for translating AsciiDoc content into numerous formats (called _backends_)
+
+AsciiDoc belongs to the family of http://en.wikipedia.org/wiki/Lightweight_markup_language[lightweight markup languages], the most well-known of which is http://daringfireball.net/projects/markdown/[Markdown].
+AsciiDoc stands out from this group because it supports all the structural elements necessary for drafting articles, technical manuals,     books, presentations and prose.
+From the very beginning, AsciiDoc was designed to be a shorthand replacement for http://www.docbook.org/whatis[DocBook], and can produce DocBook in addition to HTML5, PDFs, eBooks (EPUB3), man pages and even HTML-based slide decks.
+
+Whether you're writing READMEs, documentation, articles, books, web pages, blog posts, slide decks, man pages or just notes, AsciiDoc takes the pain out of the process and rewards you with beautiful output.
+AsciiDoc is capable of meeting even the most advanced publishing requirements and semantics.
+It has you covered from first draft to publishing.
+
+=== AsciiDoc implementations
+
+There are two implementations of the AsciiDoc processor.
+The original processor, named AsciiDoc (Python), is written in Python.
+There's also a more modern implementation, named Asciidoctor, that's written in Ruby.
+Asciidoctor can also be used from both Java and JavaScript.
+
+[TIP]
+Use {uri-asciidoctor}[Asciidoctor] for the best AsciiDoc experience.
+Then, be sure to icon:twitter[role=aqua] about it!
+
+== Get into AsciiDoc with Asciidoctor
+
+{uri-asciidoctor}[Asciidoctor] is a _fast_ text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook 5 (or 4.5) and other formats.
+Asciidoctor is written in Ruby, packaged as a RubyGem and published to {uri-asciidoctor-gem}[RubyGems.org].
+The gem is also included in several Linux distributions, including Fedora, Debian and Ubuntu.
+Asciidoctor is open source, {uri-asciidoctor-repo}[hosted on GitHub] and released under the MIT license.
+
+== Content showcase
+
+[source,ruby]
+----
+puts "Hello, World!"
+----

@@ -1,0 +1,64 @@
+@import 'settings';
+@import 'fonts';
+// load Foundation from source/components/foundation/scss/foundation.scss
+@import 'foundation.scss';
+@import 'font-awesome';
+
+#content {
+  @include grid-row;
+}
+
+// temporarily set some AsciiDoc-specific styles until we get the default stylesheet upgrade to Foundation 5
+pre.highlight {
+  border: 1px solid #dfdfdf;
+  border-radius: $global-radius;
+  background-color: #f8f8f8;
+  padding: 1em; 
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+pre > code {
+  border: 0;
+  background: none;
+  padding: 0;
+  line-height: inherit;
+}
+
+b.button {
+  display: inline;
+  padding: .5ex 1ex;
+}
+
+span.icon>.fa {
+  cursor:default;
+}
+.admonitionblock > table {
+  border:0;
+}
+.admonitionblock td.icon [class^="fa icon-"] {
+  font-size:2.5em;
+  text-shadow:1px 1px 2px rgba(0,0,0,.5);
+  cursor:default;
+}
+.admonitionblock td.icon .icon-note:before {
+  content:"\f05a";
+  color:#19407c;
+}
+.admonitionblock td.icon .icon-tip:before {
+  content:"\f0eb";
+  text-shadow:1px 1px 2px rgba(155,155,0,.8);
+  color:#111;
+}
+.admonitionblock td.icon .icon-warning:before {
+  content:"\f071";
+  color:#bf6900;
+}
+.admonitionblock td.icon .icon-caution:before {
+  content:"\f06d";
+  color:#bf3400
+}
+.admonitionblock td.icon .icon-important:before{
+  content:"\f06a";
+  color:#bf0000
+}

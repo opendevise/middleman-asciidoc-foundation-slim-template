@@ -1,0 +1,110 @@
+---
+title: Middleman with a Punch
+layout: content
+---
+.row
+  .large-12.column
+    h1 Middleman with a Punch
+
+.row
+  .large-12.column
+    .panel
+      h3 Middleman + AsciiDoc + Slim + Foundation FTW!
+      asciidoc:
+        We're _stoked_ you want to try Middleman with AsciiDoc content organized using Slim templates and styled using Foundation!
+
+        To get going, this file (index.html.slim) includes some basic styles you can modify, play around with, or totally destroy to get going. Once you've exhausted the fun in this document and the link:/sample.html[AsciiDoc sample document], you should check out:
+      .row
+        .medium-4.column: asciidoc:
+          http://middlemanapp.com/basics/getting-started[Middleman Documentation]::
+          Everything you need to know about working with Middeman.
+        .medium-4.column: asciidoc:
+          http://asciidoctor.org[Asciidoctor Documentation]::
+          Everything you need to know about writing in AsciiDoc.
+        .medium-4.column: asciidoc:
+          http://foundation.zurb.com/docs[Foundation Documentation]::
+          Everything you need to know about styling with Foundation.
+
+.row
+  .medium-8.column
+    h5 Here’s your basic grid:
+    .row
+      .large-12.column
+        .callout.panel
+          asciidoc: *This is a twelve column section in a row.* Each of these blocks uses a `<div class="callout panel">` element so you can see where the columns are -- it's not required at all for the grid.
+    .row
+      .medium-6.column
+        .callout.panel: p Six columns
+      .medium-6.column
+        .callout.panel: p Six columns
+    .row
+      .medium-4.column
+        .callout.panel: p Four columns
+      .medium-4.column
+        .callout.panel: p Four columns
+      .medium-4.column
+        .callout.panel: p Four columns
+    hr
+    h5 We bet you’ll need a form somewhere:
+    form
+      .row
+        .large-12.column
+          label Input Label
+          input type='text' placeholder='12 columns'
+      .row
+        .medium-4.column
+          label Input Label
+          input type='text' placeholder='4 columns'
+        .medium-4.column
+          label Input Label
+          input type='text' placeholder='4 columns'
+        .medium-4.column
+          .row.collapse
+            label Input Label
+            .small-9.column
+              input type='text' placeholder='4 columns (partial)'
+            .small-3.column
+              span.postfix .com
+      .row
+        .large-12.column
+          label Select Box
+          select
+            option value='husker' Husker
+            option value='starbuck' Starbuck
+            option value='hotdog' Hot Dog
+            option value='apollo' Apollo
+      .row
+        .medium-6.column
+          label Choose Your Favorite
+          input#pokemonRed type='radio' name='pokemon' value='Red'
+          label for='pokemonRed' Red
+          input#pokemonBlue type='radio' name='pokemon' value='Blue'
+          label for='pokemonBlue' Blue
+        .medium-6.column
+          label Check these out
+          input#checkbox1 type='checkbox'
+          label for='checkbox1' Checkbox 1
+          input#checkbox2 type='checkbox'
+          label for='checkbox2' Checkbox 2
+      .row
+        .large-12.column
+          label Textarea Label
+          textarea placeholder='12 columns'
+  .medium-4.columns
+    h5 Try one of these buttons:
+    p
+      a.small.button href='#' Simple Button
+      br
+      a.small.radius.button href='#' Radius Button
+      br
+      a.small.round.button href='#' Radius Button
+      br
+      a.medium.success.button href='#' Success
+      br
+      a.medium.alert.button href='#' Alert
+      br
+      a.medium.secondary.button href='#' Secondary
+    .panel
+      h5 So many components, girl!
+      p A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.
+      a.small.button href='http://foundation.zurb.com/docs/' Go to Foundation Docs

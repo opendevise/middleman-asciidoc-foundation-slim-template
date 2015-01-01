@@ -1,0 +1,42 @@
+= Middleman Template: AsciiDoc, ZURB Foundation 5 & Slim
+Dan Allen
+
+This repository is a http://middlemanapp.com[Middleman] project template with the following components enabled:
+
+* AsciiDoc for content processed by http://asciidoctor.org[Asciidoctor]
+* http://foundation.zurb.com[ZURB Foundation] for styling (loaded from the http://sass-lang.com[SCSS] version)
+* http://slim-lang.org[Slim] templates for page layouts
+
+NOTE: The ZURB Foundation assets are downloaded and managed using http://bower.io[Bower].
+
+== Installation
+
+Make sure to have the following commands:
+
+. ruby
+. git
+. middleman (`$ gem install middleman`)
+
+Next, clone this repository into `~/.middleman` (create this directory if it's not already there).
+
+ $ cd ~
+   mkdir .middleman
+   cd .middleman
+   git clone https://github.com/opendevise/middleman-asciidoc-foundation-slim-template asciidoc-foundation-slim
+
+You can then use the template with the `--template` flag on `middleman init`.
+
+ $ cd ~
+   middleman init my_new_site --template=asciidoc-foundation-slim
+   cd my_new_site
+   bower install
+   middleman
+
+Now you can start hacking on `source` directory and watch live changes at http://localhost:4567.
+
+For more help follow http://middlemanapp.com/getting-started/welcome[Middleman's project template instructions].
+
+== Copyright and Licensing
+
+Copyright (C) 2015 OpenDevise Inc.
+Free use of this software is granted under the terms of the MIT License.
